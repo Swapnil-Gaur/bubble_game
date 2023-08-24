@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(162, 250, 181);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel{
+    height: 80%;
+    width: 90%;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.toppanel{
+    padding: 0 30%;
+    height: 100px;
+    display: flex;
+    width: 100%;
+    background-color: rgb(11, 45, 19);
+    color: white;
+}
+.box{
+    width: 30%;
+    height: 20px;
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+    align-items: center;
+}
+ .box1{
+    padding: 10px 20px;
+    font-size: 25px;
+    background-color: white;
+    justify-content: center;
+    border-radius: 5px;
+    color: rgb(6, 15, 8);
+    font-weight: 600;
+ }
+
+ .bottompanel{
+    width: 100%;
+    height: calc(100%-100px);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+ }
+
+ .ball{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(176, 223, 186);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+ }
+
+ .ball:hover{
+    background-color: rgb(12, 23, 14);
+ }
